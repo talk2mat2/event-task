@@ -5,10 +5,6 @@ const PrintGender = document.getElementById("PrintGender");
 const printDob = document.getElementById("printDob");
 
 
-const validateInput=(type)=>{
-  
-}
-
 const generateQr = function () {
   const randCode = Math.floor(Math.random() * 90000) + 10000;
   var qr = new QRious({
